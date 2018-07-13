@@ -1,0 +1,106 @@
+@font-face {
+  font-family: "PINGFANGMEDIUM";
+  src: url("../font/PINGFANGMEDIUM.TTF");
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+.wrapper {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  min-width: 1920px;
+  background-image: url("../img/background.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.wrapper .inner {
+  position: absolute;
+  top: 68px;
+  left: 35px;
+  bottom: 50px;
+  right: 35px;
+  font-family: "PINGFANGMEDIUM";
+}
+.wrapper .inner .step {
+  float: left;
+}
+.wrapper .inner .step p {
+  font-size: 22px;
+  color: #efefef;
+  padding-bottom: 15px;
+}
+.wrapper .inner .step .wrap {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px #116dff;
+}
+.wrapper .inner .step.dituWrap {
+  margin-top: 20px;
+  margin-left: 112px;
+}
+.wrapper .inner .step.dituWrap .wrap {
+  width: 787px;
+  height: 414px;
+  overflow: hidden;
+  position: relative;
+}
+.wrapper .inner .step.dataWrap {
+  float: right;
+  margin-top: 20px;
+  margin-right: 112px;
+}
+.wrapper .inner .step.dataWrap .wrap {
+  width: 787px;
+  height: 455px;
+}
+.wrapper .inner .step.dataWrap .wrap table {
+  padding: 16px;
+  width: 100%;
+  font-size: 18px;
+  color: #ffffff;
+  padding-left: 32px;
+}
+.wrapper .inner .step.dataWrap .wrap table thead {
+  width: 28%;
+  line-height: 2;
+}
+.wrapper .inner .step.dataWrap .wrap table thead td {
+  width: 25%;
+}
+.wrapper .inner .step.dataWrap .wrap table tbody tr {
+  line-height: 2;
+}
+.wrapper .inner .step.dataWrap .wrap table tbody tr td {
+  width: 28%;
+}
+.wrapper .inner .step.bing {
+  float: left;
+  margin-left: 112px;
+  margin-top: 30px;
+}
+.wrapper .inner .step.bing .bottom {
+  width: 787px;
+  height: 287px;
+}
+.wrapper .inner .step.line {
+  float: right;
+  margin-top: 30px;
+  margin-right: 112px;
+  width: 787px;
+  height: 308px;
+}
+.wrapper .inner .step.line .bottom {
+  width: 787px;
+  height: 247px;
+}
+.wrapper .inner .step .wrap {
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 1px #116dff;
+}

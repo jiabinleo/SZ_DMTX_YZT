@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "PINGFANGMEDIUM";
+    src: url("../font/PINGFANGMEDIUM.TTF");
+}
+.fz(@fz){font-size: @fz; color: #efefef;}
+.border(){border-radius:10px;box-shadow:0px 0px 10px 1px rgba(17,109,255,1);}
+.wrapSize(@width,@height){width:@width;height:@height}
+*{
+    margin: 0;
+    padding: 0;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.wrapper{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    min-width: 1920px;
+    background-image: url("../img/background.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    .inner{
+        position: absolute;
+        top: 68px;
+        left: 35px;
+        bottom: 50px;
+        right: 35px;
+        font-family:"PINGFANGMEDIUM";
+        .step{
+            float: left;
+            p{
+                .fz(22px);
+                padding-bottom: 15px;
+            }
+            .wrap{
+                .border()
+            }
+            &.dituWrap{
+                margin-top: 20px;
+                margin-left: 112px;
+                .wrap{
+                    .wrapSize(787px,414px);
+                    overflow: hidden;
+                    position: relative;
+                }
+            }
+            &.dataWrap{
+                float: right;
+                margin-top: 20px;
+                margin-right: 112px;
+                .wrap{
+                    .wrapSize(787px,455px);
+                    table{
+                        padding: 16px;
+                        width: 100%;
+                        font-size: 18px;
+                        color: #ffffff;
+                        padding-left: 32px;
+                        thead{
+                            width: 28%;
+                            line-height: 2;
+                            td{
+                                width:25%;
+                            }
+                        }
+                        tbody{
+                            tr{
+                                line-height: 2;
+                                td{
+                                    width:28%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            &.bing{
+                
+                float: left;
+                margin-left: 112px;
+                margin-top: 30px;
+                // .wrapSize(787px,346px);
+                .bottom{
+                    .wrapSize(787px,287px);
+                }
+            }
+            &.line{
+                float: right;
+                margin-top: 30px;
+                margin-right: 112px;
+                .wrapSize(787px,308px);
+                .bottom{
+                    .wrapSize(787px,247px);
+                }
+            }
+            .wrap{
+                .border();
+            }
+        }
+
+    }
+}
