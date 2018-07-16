@@ -15,18 +15,18 @@ body {
   width: 100%;
   height: 100%;
   overflow: hidden;
-  min-width: 1920px;
   background-image: url("../img/background.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
   position: relative;
 }
 .wrapper .inner {
+  width: 100%;
   position: absolute;
-  top: 68px;
-  left: 35px;
-  bottom: 50px;
-  right: 35px;
+  top: 5%;
+  left: 3%;
+  bottom: 5%;
+  right: 3%;
   font-family: "PINGFANGMEDIUM";
 }
 .wrapper .inner .step {
@@ -35,70 +35,76 @@ body {
 .wrapper .inner .step p {
   font-size: 22px;
   color: #efefef;
-  padding-bottom: 15px;
+  padding-bottom: 1%;
 }
 .wrapper .inner .step .wrap {
   border-radius: 10px;
   box-shadow: 0px 0px 10px 1px #116dff;
 }
 .wrapper .inner .step.dituWrap {
-  margin-top: 20px;
-  margin-left: 112px;
+  width: 40%;
+  height: 40%;
+  margin-top: 3%;
+  margin-left: 5%;
 }
 .wrapper .inner .step.dituWrap .wrap {
-  width: 787px;
-  height: 414px;
+  width: 100%;
+  height: 100%;
   overflow: hidden;
   position: relative;
 }
 .wrapper .inner .step.dataWrap {
+  width: 40%;
+  height: 40%;
   float: right;
-  margin-top: 20px;
-  margin-right: 112px;
+  margin-top: 3%;
+  margin-right: 10%;
 }
 .wrapper .inner .step.dataWrap .wrap {
-  width: 787px;
-  height: 455px;
+  width: 100%;
+  height: 100%;
 }
 .wrapper .inner .step.dataWrap .wrap table {
-  padding: 16px;
+  padding: 5%;
   width: 100%;
   font-size: 18px;
   color: #ffffff;
-  padding-left: 32px;
+  padding-left: 5%;
 }
 .wrapper .inner .step.dataWrap .wrap table thead {
   width: 28%;
-  line-height: 2;
+  line-height: 1.5;
 }
 .wrapper .inner .step.dataWrap .wrap table thead td {
   width: 25%;
 }
 .wrapper .inner .step.dataWrap .wrap table tbody tr {
-  line-height: 2;
+  line-height: 1.5;
 }
 .wrapper .inner .step.dataWrap .wrap table tbody tr td {
   width: 28%;
 }
 .wrapper .inner .step.bing {
+  width: 40%;
+  height: 40%;
   float: left;
-  margin-left: 112px;
-  margin-top: 30px;
+  margin-left: 5%;
+  margin-top: 5%;
 }
 .wrapper .inner .step.bing .bottom {
-  width: 787px;
-  height: 287px;
+  width: 100%;
+  height: 100%;
 }
 .wrapper .inner .step.line {
+  width: 40%;
+  height: 40%;
   float: right;
-  margin-top: 30px;
-  margin-right: 112px;
-  width: 787px;
-  height: 308px;
+  margin-top: 5%;
+  margin-right: 10%;
 }
 .wrapper .inner .step.line .bottom {
-  width: 787px;
-  height: 247px;
+  width: 100%;
+  height: 100%;
 }
 .wrapper .inner .step .wrap {
   border-radius: 10px;

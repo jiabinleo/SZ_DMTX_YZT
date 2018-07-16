@@ -257,7 +257,6 @@ $(function() {
     myChart3: function() {
       var myChart3 = echarts.init(document.getElementById("main3"));
       myChart3.showLoading();
-
       $.get("js/HK.json", function(geoJson) {
         myChart3.hideLoading();
         echarts.registerMap("HK", geoJson);
@@ -301,7 +300,8 @@ $(function() {
                   { name: "宝安区", value: 31686.1 },
                   { name: "福田区", value: 6992.6 },
                   { name: "龙岗区", value: 44045.49 },
-                  { name: "罗湖区", value: 40689.64 }
+                  { name: "罗湖区", value: 40689.64 },
+                  { name: "龙华区", value: 40689.64 }
                 ],
                 // 自定义名称映射
                 nameMap: {
